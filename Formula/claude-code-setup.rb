@@ -10,8 +10,8 @@
 class ClaudeCodeSetup < Formula
   desc "CLI tool to install and manage Claude Code configurations"
   homepage "https://github.com/bis-code/claude-code-setup"
-  url "https://api.github.com/repos/bis-code/claude-code-setup/tarball/v0.1.0"
-  sha256 "025d36570c6b7eb99090fa40f99505da82b95dd6c5bb0292298627feda829690"
+  url "https://github.com/bis-code/claude-code-setup/releases/download/v0.1.0/claude-code-setup-0.1.0.tar.gz"
+  sha256 "a116211886de288f8450704300ae0bcf179f0699d3aa467bc1e877ae9810560e"
   license "MIT"
   version "0.1.0"
 
@@ -24,9 +24,8 @@ class ClaudeCodeSetup < Formula
     # Install library files
     (lib/"claude-setup").install Dir["lib/*"]
 
-    # Install templates
-    (lib/"claude-setup/templates").install Dir["templates/*"]
-    (lib/"claude-setup/templates/.claude").install Dir["templates/.claude/*"]
+    # Install templates directory (includes .claude subdirectory)
+    (lib/"claude-setup").install "templates"
 
     # Update the LIB_DIR path in the main script
     inreplace bin/"claude-setup",
