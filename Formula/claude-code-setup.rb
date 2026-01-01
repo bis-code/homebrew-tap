@@ -9,9 +9,9 @@
 #
 class ClaudeCodeSetup < Formula
   desc "CLI tool to install and manage Claude Code configurations"
-  homepage "https://github.com/yourusername/claude-code-setup"
-  url "https://github.com/yourusername/claude-code-setup/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256"  # Update after creating release
+  homepage "https://github.com/bis-code/claude-code-setup"
+  url "https://github.com/bis-code/claude-code-setup/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   license "MIT"
   version "0.1.0"
 
