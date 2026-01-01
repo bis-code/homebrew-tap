@@ -10,10 +10,10 @@
 class ClaudeCodeSetup < Formula
   desc "CLI tool to install and manage Claude Code configurations"
   homepage "https://github.com/bis-code/claude-code-setup"
-  url "https://github.com/bis-code/claude-code-setup/releases/download/v0.3.5/claude-code-setup-0.3.5.tar.gz"
-  sha256 "8e519af9c7f8f62cfd25ac3e2e17f37f56d4bcd969078f32ad49afd1e42ed2de"
+  url "https://github.com/bis-code/claude-code-setup/releases/download/v0.3.6/claude-code-setup-0.3.6.tar.gz"
+  sha256 "1ec8fd59c2b0eda60e46612c14d9891e290a470781b30770056e61015cc5c8bb"
   license "MIT"
-  version "0.3.5"
+  version "0.3.6"
 
   # No dependencies - pure bash
 
