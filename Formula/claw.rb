@@ -1,10 +1,10 @@
 class Claw < Formula
   desc "Claude Automated Workflow - CLI tool for Claude Code configurations"
   homepage "https://github.com/bis-code/claw"
-  url "https://github.com/bis-code/claw/releases/download/v1.1.4/claw-1.1.4.tar.gz"
-  sha256 "084cefa61eaa3d14deed6dd27cd130e6c7b23403eff4e7d93f3886cd56239488"
+  url "https://github.com/bis-code/claw/releases/download/v1.1.5/claw-1.1.5.tar.gz"
+  sha256 "e6037d3353e33a62001a48590bda63a66d8fb918305b673655f5a64825c683e0"
   license "MIT"
-  version "1.1.4"
+  version "1.1.5"
 
   def install
     bin.install "bin/claw"
