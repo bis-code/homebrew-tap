@@ -2,7 +2,7 @@ class Claw < Formula
   desc "Claude Automated Workflow - CLI tool for Claude Code configurations"
   homepage "https://github.com/bis-code/claw"
   url "https://github.com/bis-code/claw/releases/download/v1.0.1/claw-1.0.1.tar.gz"
-  sha256 "bebcae7a3d6f7577cd6d7f4adc5d9d291993d5631cafcfa85d1606818022f9bc"
+  sha256 "fa51dcd37bfdc0674da713ba9896271507830dbc5c732a48b6efaf468b99220b"
   license "MIT"
   version "1.0.1"
 
@@ -14,10 +14,6 @@ class Claw < Formula
     inreplace bin/"claw",
       'LIB_DIR="${SCRIPT_DIR}/../lib"',
       "LIB_DIR=\"#{lib}/claw\""
-
-    inreplace bin/"claw",
-      'TEMPLATES_DIR="${SCRIPT_DIR}/../templates"',
-      "TEMPLATES_DIR=\"#{lib}/claw/templates\""
   end
 
   def caveats
