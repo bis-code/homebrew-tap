@@ -1,10 +1,10 @@
 class Claw < Formula
   desc "Claude Automated Workflow - CLI tool for Claude Code configurations"
   homepage "https://github.com/bis-code/claw"
-  url "https://github.com/bis-code/claw/releases/download/v1.2.0/claw-1.2.0.tar.gz"
-  sha256 "423246c1c4b58e40a5debdb85233787b9313bf4fb4d7fb1cc94da9baf09fd288"
+  url "https://github.com/bis-code/claw/releases/download/v1.3.0/claw-1.3.0.tar.gz"
+  sha256 "0d2ce402242b12718c603e71d05fa2074f7ba924eb01e3c560818fed489698a1"
   license "MIT"
-  version "1.2.0"
+  version "1.3.0"
 
   def install
     bin.install "bin/claw"
@@ -23,6 +23,7 @@ class Claw < Formula
       Usage:
         claw              - Start Claude Code with enhanced features
         claw --yolo       - Skip permission prompts (dangerous!)
+        claw project      - Multi-repo project management
         claw repos add    - Track a repository
         claw templates    - Manage GitHub issue templates
         claw --help       - Show all options
