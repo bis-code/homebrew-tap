@@ -1,10 +1,10 @@
 class Claw < Formula
   desc "Claude Automated Workflow - CLI tool for Claude Code configurations"
   homepage "https://github.com/bis-code/claw"
-  url "https://github.com/bis-code/claw/releases/download/v1.3.8/claw-1.3.8.tar.gz"
-  sha256 "9e186ff9f7c5e06c30ce2a3792d6d9e9c74fea9343c2dff15c9aeb4c9e847161"
+  url "https://github.com/bis-code/claw/releases/download/v1.3.9/claw-1.3.9.tar.gz"
+  sha256 "4ab83761968a35c78540315170e45273d97f24b21fc7c99f86d58fa393527eb9"
   license "MIT"
-  version "1.3.8"
+  version "1.3.9"
 
   def install
     bin.install "bin/claw"
@@ -27,7 +27,8 @@ class Claw < Formula
         claw templates    - Manage GitHub issue templates
         claw --help       - Show all options
 
-      New in 1.3.8: Auto-indexes projects for semantic search on first run!
+      New in 1.3.9: Installs full Claude config (skills, rules, agents, etc.)!
+      Run 'claw --update' to refresh your Claude setup.
     EOS
   end
 
