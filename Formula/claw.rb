@@ -1,10 +1,10 @@
 class Claw < Formula
   desc "Claude Automated Workflow - CLI tool for Claude Code configurations"
   homepage "https://github.com/bis-code/claw"
-  url "https://github.com/bis-code/claw/releases/download/v1.3.11/claw-1.3.11.tar.gz"
-  sha256 "816637b8a893507e20e32afe6d8a3960ef1b19fb4c2f078c3d888493f49eb4b7"
+  url "https://github.com/bis-code/claw/releases/download/v1.4.0/claw-1.4.0.tar.gz"
+  sha256 "99ad07e066fecab3279647a6fef6ccf90adde7b5388f69da0bd7c37f8abc5949"
   license "MIT"
-  version "1.3.11"
+  version "1.4.0"
 
   def install
     bin.install "bin/claw"
@@ -27,7 +27,16 @@ class Claw < Formula
         claw templates    - Manage GitHub issue templates
         claw --help       - Show all options
 
-      New in 1.3.11: Fixed templates path issue! Run 'claw --update' now.
+      New in 1.4.0: Autonomous Self-Improvement! 🤖
+        - Daily automated code quality improvements
+        - Web research for best practices and trends
+        - Automatic PR creation with improvements
+
+        Setup: claw project generate-self-improve-workflow
+
+        For each repo, first run:
+          claude
+          /install-github-app
     EOS
   end
 
